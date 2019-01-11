@@ -40,17 +40,17 @@ function SetSelect($id,$type,$defaultName = null)
     </div>
 
     <div class="canvas draggable" style="height:20vh; left:59vw; top:4vh" id="dragOeuil">
-      <img src="images/organe/oeuil/oeil5.gif" class="chim" onwheel="resize(event)" id="oeuil">
+      <img src="images/organe/oeuil/oeil5.gif" class="chim" id="oeuil">
     </div>
     <div class="canvas draggable" style="height:20vh; left:26vw; top:10vh" id="dragOeuil2">
-      <img src="images/organe/oeuil/oeil5.gif" class="chim mirror" onwheel="resize(event)" id="oeuil2">
+      <img src="images/organe/oeuil/oeil5.gif" class="chim mirror" id="oeuil2">
     </div>
 		<div class="canvas draggable" style="height:20vh; left:62vw; top:10vh" id="dragOeuil3">
-      <img src="images/organe/oeuil/oeil5.gif" class="chim" onwheel="resize(event)" id="oeuil3">
+      <img src="images/organe/oeuil/oeil5.gif" class="chim" id="oeuil3">
     </div>
 
     <div class="canvas draggable" style="height:16vh; left:39vw; top:40vh" id="dragNez">
-      <img src="images/organe/nez/naseaux.gif" class="chim" onwheel="resize(event)" id="nez">
+      <img src="images/organe/nez/naseaux.gif" class="chim" id="nez">
     </div>
 
     <div class="canvas draggable" style="height:20vh; left:39vw; top:50vh" id="dragBou">
@@ -58,10 +58,10 @@ function SetSelect($id,$type,$defaultName = null)
     </div>
 
     <div class="canvas draggable" style="height:30vh; left:70vw; top:60vh" id="dragProt">
-      <img src="images/organe/prot/florale.gif" class="chim" onwheel="resize(event)" id="prot">
+      <img src="images/organe/prot/florale.gif" class="chim" id="prot">
     </div>
     <div class="canvas draggable" style="height:30vh; left:13vw; top:60vh" id="dragProt2">
-      <img src="images/organe/prot/florale.gif" class="chim mirror" onwheel="resize(event)" id="prot2">
+      <img src="images/organe/prot/florale.gif" class="chim mirror" id="prot2">
     </div>
   </div>
 </div>
