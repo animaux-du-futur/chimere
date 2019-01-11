@@ -39,35 +39,35 @@ function SetSelect($id,$type,$defaultName = null)
       <img id="tex" src="images/foo.png">
     </div>
 
-    <div class="canvas draggable" id="dragOeuil">
-      <img class="chim" style="height:26vh" onwheel="resize(event)" id="oeuil">
+    <div class="canvas draggable" style="height:20vh; left:59vw; top:4vh" id="dragOeuil">
+      <img src="images/organe/oeuil/oeil5.gif" class="chim" onwheel="resize(event)" id="oeuil">
     </div>
-    <div class="canvas draggable" id="dragOeuil2">
-      <img class="chim mirror" style="height:26vh" onwheel="resize(event)" id="oeuil2">
+    <div class="canvas draggable" style="height:20vh; left:26vw; top:10vh" id="dragOeuil2">
+      <img src="images/organe/oeuil/oeil5.gif" class="chim mirror" onwheel="resize(event)" id="oeuil2">
     </div>
-		<div class="canvas draggable" id="dragOeuil3">
-      <img class="chim" style="height:26vh" onwheel="resize(event)" id="oeuil3">
-    </div>
-
-    <div class="canvas draggable" id="dragNez">
-      <img class="chim" style="height:20vh; margin-left:5px;" onwheel="resize(event)" id="nez">
+		<div class="canvas draggable" style="height:20vh; left:62vw; top:10vh" id="dragOeuil3">
+      <img src="images/organe/oeuil/oeil5.gif" class="chim" onwheel="resize(event)" id="oeuil3">
     </div>
 
-    <div class="canvas draggable" id="dragBou">
-      <img class="chim" style="height:24vh; margin-left:30px;" onwheel="resize(event)" id="bou">
+    <div class="canvas draggable" style="height:16vh; left:39vw; top:40vh" id="dragNez">
+      <img src="images/organe/nez/naseaux.gif" class="chim" onwheel="resize(event)" id="nez">
     </div>
 
-    <div class="canvas draggable" id="dragProt">
-      <img class="chim" style="height:39vh" onwheel="resize(event)" id="prot">
+    <div class="canvas draggable" style="height:20vh; left:39vw; top:50vh" id="dragBou">
+      <img src="images/organe/bou/bec_plat.gif" class="chim" onwheel="resize(event)" id="bou">
     </div>
-    <div class="canvas draggable" id="dragProt2">
-      <img class="chim mirror" style="height:39vh" onwheel="resize(event)" id="prot2">
+
+    <div class="canvas draggable" style="height:30vh; left:70vw; top:60vh" id="dragProt">
+      <img src="images/organe/prot/florale.gif" class="chim" onwheel="resize(event)" id="prot">
+    </div>
+    <div class="canvas draggable" style="height:30vh; left:13vw; top:60vh" id="dragProt2">
+      <img src="images/organe/prot/florale.gif" class="chim mirror" onwheel="resize(event)" id="prot2">
     </div>
   </div>
 </div>
 
 
-<div class="footer-1 transf"><div class="fooChimere">
+<div class="footer-1 transf" style="display:none"><div class="fooChimere">
 	<div class="aide">
 		<h2>???</h2>
 		<p class="instructions">\o/ Bienvenue sur la Chimère \o/<br>
