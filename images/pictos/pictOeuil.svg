@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53.27 39.27">
+  <defs>
+    <style>
+      .a {
+        fill: #fff;
+      }
+
+      .a, .b {
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .b {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>pictos-chim</title>
+  <g>
+    <path class="a" d="M51.51,19.63S40.37,33.21,26.63,33.21,1.76,19.63,1.76,19.63,12.9,6.05,26.63,6.05,51.51,19.63,51.51,19.63Z"/>
+    <circle class="b" cx="26.63" cy="19.63" r="10.49"/>
+    <circle cx="26.63" cy="19.63" r="5.9"/>
+  </g>
+</svg>

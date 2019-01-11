@@ -1,0 +1,138 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,600,400);
+
+/*nav-barre
+* {
+  box-sizing: border-box; /* pour maîtriser width et flex-basis *
+}*/
+:root {
+  --highlight1: #FF9933;
+  --highlight2: #FFF734;
+  --highlight3: #24C8F5;
+  --highlight4: #48D450;
+  --white: white;
+  --grey1: #333333;
+}
+
+select {
+  border-radius: 0px;
+  background-color: rgb(255, 216, 0);
+  border: 0px;
+  padding: 7px;
+  margin: 7px 0px;
+}
+.fooChimere h2 {
+  font-size: 16px;
+}
+h2#nom {
+  position: absolute;
+  text-align: right;
+  right: 30px;
+  top: 50vh;
+}
+img {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+img.picto {
+  margin: 0px 5px;
+  height: 24px;
+}
+img.chim {
+  pointer-events: none;
+  user-select: none;
+  display: none;
+}
+img.mirror {
+  transform: scaleX(-1);
+       -moz-transform: scaleX(-1);
+        -ms-transform: scaleX(-1);
+         -o-transform: scaleX(-1);
+            transform: scaleX(-1);
+}
+img#tex {
+  width: 100%;
+  height: auto;
+  pointer-events: none;
+}
+.tableau {
+}
+.content {
+}
+.fixed {
+  width: 100%;
+  position: relative;
+}
+.fixed img {
+  margin: 0px;
+}
+.transf-btn {
+  width: auto;
+  margin: auto;
+  background-color: unset;
+  border: unset;
+  cursor: pointer;
+  position: relative;
+}
+.canvas {
+  position:absolute;
+  user-select: none;
+}
+.draggable {
+  cursor: grab;
+}
+/*.draggable { - resize WIP
+  resize: both;
+  overflow: auto;
+}*/
+.draggable:hover .canvas {
+  visibility: visible;
+  }
+.draggable:hover {
+  opacity: 0.7;
+  background-image: radial-gradient(
+      circle,
+      rgba(255, 216, 0, 1),
+      rgba(255, 216, 0, 0),
+      rgba(255, 216, 0, 0)
+    );
+}
+.transf .footer-button, .transf .footer-div {
+  height: 30px;
+  padding: 0px 5px;
+}
+.transf .content {
+  padding-bottom: 30px;
+}
+.aide {
+  width: 30px;;
+  padding: 7px 7px 7px 15px;
+  position: relative;
+}
+.aide p.instructions {
+  visibility: hidden;
+}
+.aide:hover p.instructions {
+  visibility: visible;
+}
+.footer-button:hover, .aide:hover {
+  background-color: var(--highlight1);
+  color: var(--white);
+}
+.fooChimere .footer-button:hover {
+  background-color: none;
+  color: inherit;
+}
+.fooChimere {
+  position: relative;
+  width: inherit;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.mselect {
+  margin-right: 5px;
+}
