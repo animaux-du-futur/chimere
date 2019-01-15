@@ -38,24 +38,20 @@ function SetSelect($id,$type,$defaultName = null)
     <h2 class="titre1">LA CHIMERE</h2>
     <h2 class="titre2">LA CHIMERE</h2>
 
-    <button class="parametres">
+    <button class="parametres"><!-- INFO en popup -->
       <img src="images/zoom-01.png" class="change">
     </button>
 
-    <button class="parametres">
+    <button class="parametres"><!-- CHARGER de nouveau GIFS -->
       <img src="images/zoom-01.png" class="change">
     </button>
 
-    <button class="parametres">
+    <button class="parametres"><!-- AFFICHER à nouveau un GIF desactivé -->
       <img src="images/zoom-01.png" class="change">
     </button>
 
-    <button class="parametres">
-      <img src="images/zoom-01.png" class="change">
-    </button>
-    
     <div class="canvas" id="texture" style="width:100%; height:100%; overflow:hidden;">
-      <img id="tex" src="images/foo.png">
+      <img id="tex" src="images/organe/tex/chats.gif"><!--/organe/tex/bacteries.gif-->
     </div>
 
     <div class="canvas draggable" style="height:20vh; left:59vw; top:4vh" id="dragOeuil">

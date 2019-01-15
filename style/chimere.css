@@ -40,6 +40,7 @@ h2.titre1 {
   position: absolute;
   top: 1%;
   left: 5px;
+  z-index: 10;
   /*font-family: 'Bungee Outline', cursive;*/
 }
 h2.titre2 {
@@ -48,6 +49,7 @@ h2.titre2 {
   position: absolute;
   top: 6%;
   left: 5px;
+  z-index: 10;
   /*font-family: 'Bungee Outline', cursive;*/
 }
 img {
@@ -88,6 +90,7 @@ img#tex {
   position: relative;
 }
 
+/* MENU DE GAUCHE */
 button.parametres {
   position: absolute;
   z-index: 20;
@@ -113,6 +116,10 @@ button.parametres:nth-of-type(3) {
 button.parametres:nth-of-type(4) {
   margin-top: 160px;
 }
+button.parametres:hover, button.parametres:active {
+  background-color: rgb(255, 216, 0);
+}
+/* FIN */
 .fixed img {
   margin: 0px;
 }
@@ -131,10 +138,6 @@ button.parametres:nth-of-type(4) {
 .draggable {
   cursor: grab;
 }
-/*.draggable { - resize WIP
-  resize: both;
-  overflow: auto;
-}*/
 .draggable:hover .canvas {
   visibility: visible;
 }
