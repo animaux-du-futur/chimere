@@ -20,6 +20,10 @@ select {
   padding: 7px;
   margin: 7px 0px;
 }
+button {
+  border: none;
+  background-color: unset;
+}
 .fooChimere h2 {
   font-size: 16px;
 }
@@ -99,6 +103,53 @@ img#tex {
       rgba(255, 216, 0, 0)
     );
 }
+
+.control {
+  display: block;
+  z-index: 5;
+  height: 0px;
+  width: 0px;
+}
+button.change {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 2px grey;
+}
+button.change:hover, button.change:active {
+  background-color: rgb(255, 216, 0);
+}
+img.change {
+  height: 25px;
+  width: auto;
+}
+/* MOSAIQUE de selection */
+.mosaique {
+  display: none;/* onclick sur button.change deviens flex */
+  flex-direction: column;
+  width: 90px;
+  max-height: 200px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  top: 35px; /* alternative : bottom:0px; */
+  left: 35px;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 0px 4px grey;
+  border-radius: 10px;
+  margin: auto;
+}
+.mosaique img {
+  width: 100%;
+}
+/* FIN */
+
 .transf .footer-button, .transf .footer-div {
   height: 30px;
   padding: 0px 5px;

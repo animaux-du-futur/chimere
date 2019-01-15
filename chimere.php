@@ -40,8 +40,31 @@ function SetSelect($id,$type,$defaultName = null)
     </div>
 
     <div class="canvas draggable" style="height:20vh; left:59vw; top:4vh" id="dragOeuil">
+
+      <div class="control test" style="position:relative;">
+
+        <button class="change">
+          <img src="images/zoom-01.png" class="change">
+        </button>
+        <div class="mosaique">
+          <button class="">
+            <img src="images/zoom-01.png">
+          </button>
+          <button class="">
+            <img src="images/zoom-01.png">
+          </button>
+          <button class="">
+            <img src="images/zoom-01.png">
+          </button>
+          <button class="">
+            <img src="images/zoom-01.png">
+          </button>
+        </div>
+      </div>
       <img src="images/organe/oeuil/oeil5.gif" class="chim" id="oeuil">
+
     </div>
+
     <div class="canvas draggable" style="height:20vh; left:26vw; top:10vh" id="dragOeuil2">
       <img src="images/organe/oeuil/oeil5.gif" class="chim mirror" id="oeuil2">
     </div>
