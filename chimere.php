@@ -47,17 +47,17 @@ function SetSelect($id,$type,$defaultName = null)
           <img src="images/zoom-01.png" class="change">
         </button>
         <div class="mosaique">
-          <button class="">
-            <img src="images/zoom-01.png">
+          <button class="mosa">
+            <img class="mosa" src="images/zoom-01.png">
           </button>
-          <button class="">
-            <img src="images/zoom-01.png">
+          <button class="mosa">
+            <img class="mosa" src="images/zoom-01.png">
           </button>
-          <button class="">
-            <img src="images/zoom-01.png">
+          <button class="mosa">
+            <img class="mosa" src="images/zoom-01.png">
           </button>
-          <button class="">
-            <img src="images/zoom-01.png">
+          <button class="mosa">
+            <img class="mosa" src="images/zoom-01.png">
           </button>
         </div>
       </div>
