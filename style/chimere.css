@@ -95,7 +95,6 @@ img#tex {
   visibility: visible;
 }
 .draggable:hover {
-  opacity: 0.7;
   background-image: radial-gradient(
       circle,
       rgba(255, 216, 0, 1),
@@ -103,12 +102,19 @@ img#tex {
       rgba(255, 216, 0, 0)
     );
 }
+.draggable:hover img.chim {
+  opacity: 0.7;
+}
+
 /* Module de changement de GIF */
 .control {
-  display: block;
+  display: none;
   z-index: 5;
   height: 0px;
   width: 0px;
+}
+.draggable:hover .control {
+  display: block;
 }
 button.change {
   width: 40px;
