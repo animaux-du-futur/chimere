@@ -35,14 +35,32 @@ function SetSelect($id,$type,$defaultName = null)
 
   <div class="content fixed">
 
+    <h2 class="titre1">LA CHIMERE</h2>
+    <h2 class="titre2">LA CHIMERE</h2>
+
+    <button class="parametres">
+      <img src="images/zoom-01.png" class="change">
+    </button>
+
+    <button class="parametres">
+      <img src="images/zoom-01.png" class="change">
+    </button>
+
+    <button class="parametres">
+      <img src="images/zoom-01.png" class="change">
+    </button>
+
+    <button class="parametres">
+      <img src="images/zoom-01.png" class="change">
+    </button>
+    
     <div class="canvas" id="texture" style="width:100%; height:100%; overflow:hidden;">
       <img id="tex" src="images/foo.png">
     </div>
 
     <div class="canvas draggable" style="height:20vh; left:59vw; top:4vh" id="dragOeuil">
 
-      <div class="control test" style="position:relative;">
-
+      <div class="control" style="position:relative;">
         <button class="change">
           <img src="images/zoom-01.png" class="change">
         </button>
@@ -61,6 +79,7 @@ function SetSelect($id,$type,$defaultName = null)
           </button>
         </div>
       </div>
+
       <img src="images/organe/oeuil/oeil5.gif" class="chim" id="oeuil">
 
     </div>
