@@ -103,7 +103,7 @@ img#tex {
       rgba(255, 216, 0, 0)
     );
 }
-
+/* Module de changement de GIF */
 .control {
   display: block;
   z-index: 5;
@@ -125,6 +125,26 @@ button.change {
 button.change:hover, button.change:active {
   background-color: rgb(255, 216, 0);
 }
+img.change {
+  height: 25px;
+  width: auto;
+}
+/* > MOSAIQUE de selection */
+.mosaique {
+  display: none;/* onclick sur button.change deviens flex */
+  flex-direction: column;
+  width: 90px;
+  max-height: 200px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  top: 35px; /* alternative : bottom:0px; */
+  left: 35px;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 0px 4px grey;
+  border-radius: 10px;
+  margin: auto;
+}
 button.mosa {
   position: relative;
   display: flex;
@@ -144,26 +164,6 @@ button.mosa::before {
   width: 70%;
   height: 100%;
   border-bottom: 5px solid white;
-}
-img.change {
-  height: 25px;
-  width: auto;
-}
-/* MOSAIQUE de selection */
-.mosaique {
-  display: none;/* onclick sur button.change deviens flex */
-  flex-direction: column;
-  width: 90px;
-  max-height: 200px;
-  overflow-x: hidden;
-  overflow-y: auto;
-  top: 35px; /* alternative : bottom:0px; */
-  left: 35px;
-  position: absolute;
-  background-color: white;
-  box-shadow: 0px 0px 4px grey;
-  border-radius: 10px;
-  margin: auto;
 }
 /* FIN */
 
