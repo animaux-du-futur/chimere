@@ -143,7 +143,7 @@ button.mosa::before {
   content: '';
   width: 70%;
   height: 100%;
-  border-bottom: 5px solid grey;
+  border-bottom: 5px solid white;
 }
 img.change {
   height: 25px;
@@ -151,7 +151,7 @@ img.change {
 }
 /* MOSAIQUE de selection */
 .mosaique {
-  display: /*none;/* onclick sur button.change deviens flex */
+  display: none;/* onclick sur button.change deviens flex */
   flex-direction: column;
   width: 90px;
   max-height: 200px;
