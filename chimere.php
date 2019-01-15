@@ -60,6 +60,9 @@ function SetSelect($id,$type,$defaultName = null)
         <button class="change">
           <img src="images/zoom-01.png" class="change">
         </button>
+        <button class="hide">
+          <img src="images/zoom-01.png" class="change">
+        </button>
         <div class="mosaique">
           <button class="mosa">
             <img class="mosa" src="images/zoom-01.png">
