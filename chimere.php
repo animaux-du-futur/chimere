@@ -46,6 +46,10 @@ function SetSelect($id,$type,$defaultName = null)
       <img src="images/zoom-01.png" class="change">
     </button>
 
+    <button class="parametres"><!-- CHANGER la texture de fond -->
+      <img src="images/zoom-01.png" class="change">
+    </button>
+
     <button class="parametres"><!-- AFFICHER à nouveau un GIF desactivé -->
       <img src="images/zoom-01.png" class="change">
     </button>
@@ -57,10 +61,10 @@ function SetSelect($id,$type,$defaultName = null)
     <div class="canvas draggable" style="height:20vh; left:59vw; top:4vh" id="dragOeuil">
 
       <div class="control" style="position:relative;">
-        <button class="change">
+        <button class="change"><!-- AFFICHER la mosaique de selection onclick -->
           <img src="images/zoom-01.png" class="change">
         </button>
-        <button class="hide">
+        <button class="hide"><!-- CACHER le gif - le bouton de ré-activation apparait à gauche de l'écran -->
           <img src="images/zoom-01.png" class="change">
         </button>
         <div class="mosaique">
