@@ -38,21 +38,30 @@ function SetSelect($id,$type,$defaultName = null)
     <h2 class="titre1">LA CHIMERE</h2>
     <h2 class="titre2">LA CHIMERE</h2>
 
-    <button class="parametres"><!-- INFO en popup -->
-      <img src="images/zoom-01.png" class="change">
-    </button>
+    <div class="parametrage">
+      <button class="parametres"><!-- INFO en popup -->
+      <img src="images/pictos/chimere_picto_info.svg" class="change">
+      </button>
+      <button class="parametres"><!-- CHARGER de nouveau GIFS -->
+        <img src="images/pictos/chimere_picto_shuffle.svg" class="change">
+      </button>
 
-    <button class="parametres"><!-- CHARGER de nouveau GIFS -->
-      <img src="images/zoom-01.png" class="change">
-    </button>
-
-    <button class="parametres"><!-- CHANGER la texture de fond -->
-      <img src="images/zoom-01.png" class="change">
-    </button>
-
-    <button class="parametres"><!-- AFFICHER à nouveau un GIF desactivé -->
-      <img src="images/zoom-01.png" class="change">
-    </button>
+      <button class="parametres"><!-- CHANGER la texture de fond -->
+        <img src="images/pictos/chimere_picto_texture.svg" class="change">
+      </button>
+      <button class="parametres"><!-- AFFICHER à nouveau un GIF desactivé -->
+        <img src="images/pictos/chimere_picto_bouche.svg" class="change">
+      </button>
+      <button class="parametres"><!-- AFFICHER à nouveau un GIF desactivé -->
+        <img src="images/pictos/chimere_picto_oeuil.svg" class="change">
+      </button>
+      <button class="parametres"><!-- AFFICHER à nouveau un GIF desactivé -->
+        <img src="images/pictos/chimere_picto_tenta.svg" class="change">
+      </button>
+      <button class="parametres"><!-- AFFICHER à nouveau un GIF desactivé -->
+        <img src="images/pictos/chimere_picto_nez.svg" class="change">
+      </button>
+    </div>
 
     <div class="canvas" id="texture" style="width:100%; height:100%; overflow:hidden;">
       <img id="tex" src="images/organe/tex/chats.gif"><!--/organe/tex/bacteries.gif-->
@@ -62,10 +71,10 @@ function SetSelect($id,$type,$defaultName = null)
 
       <div class="control" style="position:relative;">
         <button class="change"><!-- AFFICHER la mosaique de selection onclick -->
-          <img src="images/zoom-01.png" class="change">
+          <img src="images/pictos/chimere_picto_mosaique.svg" class="change">
         </button>
-        <button class="hide"><!-- CACHER le gif - le bouton de ré-activation apparait à gauche de l'écran -->
-          <img src="images/zoom-01.png" class="change">
+        <button class="change"><!-- CACHER le gif - le bouton de ré-activation apparait à gauche de l'écran -->
+          <img src="images/pictos/chimere_picto_hide.svg" class="change">
         </button>
         <div class="mosaique">
           <button class="mosa">
@@ -94,7 +103,7 @@ function SetSelect($id,$type,$defaultName = null)
       <img src="images/organe/oeuil/oeil5.gif" class="chim" id="oeuil3">
     </div>
 
-    <div class="canvas draggable" style="height:16vh; left:39vw; top:40vh" id="dragNez">
+    <div class="canvas draggable wiggle" style="height:16vh; left:39vw; top:40vh" id="dragNez">
       <img src="images/organe/nez/naseaux.gif" class="chim" id="nez">
     </div>
 

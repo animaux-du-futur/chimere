@@ -22,8 +22,9 @@ select {
   margin: 7px 0px;
 }
 button {
-  border: none;
+  border: 2px solid black;
   background-color: unset;
+  box-shadow: 0px 0px 4px black;
 }
 .fooChimere h2 {
   font-size: 16px;
@@ -91,30 +92,30 @@ img#tex {
 }
 
 /* MENU DE GAUCHE */
-button.parametres {
+.parametrage {
   position: absolute;
   z-index: 20;
   top: 15%;
   left: 0px;
+  height: 100%;
   width: 40px;
+  display: flex;
+  flex-direction: column;
+}
+button.parametres {
+  width: 100%;
   height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0px;
+  margin-bottom: 10px;
   padding: 0px;
   border-radius: 0px 10px 10px 0px;
   background-color: white;
-  box-shadow: 0px 0px 2px grey;
+  border-left: 0px;
 }
 button.parametres:nth-of-type(2) {
-  margin-top: 50px;
-}
-button.parametres:nth-of-type(3) {
-  margin-top: 110px;
-}
-button.parametres:nth-of-type(4) {
-  margin-top: 160px;
+  margin-bottom: 30px;
 }
 button.parametres:hover, button.parametres:active {
   background-color: rgb(255, 216, 0);
@@ -169,30 +170,17 @@ button.change {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0px;
+  margin-bottom: 10px;
   padding: 0px;
   border-radius: 10px;
   background-color: white;
-  box-shadow: 0px 0px 2px grey;
 }
 button.change:hover, button.change:active {
   background-color: rgb(255, 216, 0);
 }
-img.change {
-  height: 25px;
+.parametres img {
+  height: 100%;
   width: auto;
-}
-button.hide {
-  width: 40px;
-  height: 40px;
-  margin-top: 6px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
-  border-radius: 10px;
-  background-color: white;
-  box-shadow: 0px 0px 2px grey;
 }
 /* > MOSAIQUE de selection */
 .mosaique {
@@ -217,6 +205,8 @@ button.mosa {
   align-items: center;
   overflow-y: hidden;
   height: 70px;
+  border: 0px;
+  box-shadow: none;
 }
 img.mosa {
   width: 100%;
@@ -231,6 +221,24 @@ button.mosa::before {
   border-bottom: 5px solid white;
 }
 /* FIN */
+
+/* Vibration des images */
+@keyframes wiggle {
+    0% { transform: rotate(0deg); }
+   80% { transform: rotate(0deg); }
+   85% { transform: rotate(5deg); }
+   95% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.wiggle {
+  display: inline-block;
+  animation: wiggle 2.5s infinite;
+}
+
+.wiggle:hover {
+  animation: none;
+}
 
 /* ANCIENNE CONFIG
 .transf .footer-button, .transf .footer-div {
