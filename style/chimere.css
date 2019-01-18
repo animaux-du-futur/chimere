@@ -230,15 +230,37 @@ button.mosa::before {
    95% { transform: rotate(1deg); }
   100% { transform: rotate(-1deg); }
 }
-
 .wiggle, .draggable {
   display: inline-block;
   animation: wiggle 0.3s infinite;
 }
-
 .wiggle:hover {
   animation: none;
 }
+/* FIN vibrations */
+.aide {
+  position: absolute;
+  z-index: 30;
+  visibility: hidden;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.instructions {
+  z-index: 30;
+  visibility: hidden;
+  width: 40%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: rgb(255, 216, 0);
+
+}
+/*  */
 
 /* ANCIENNE CONFIG
 .transf .footer-button, .transf .footer-div {

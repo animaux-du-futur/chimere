@@ -35,6 +35,14 @@ function SetSelect($id,$type,$defaultName = null)
 
   <div class="content fixed">
 
+    <div class="aide">
+  		<div class="instructions">
+        <p>\o/ Bienvenue sur la Chimère \o/<br>
+        Ici tu peux créer ta créature imaginaire<br>
+  			Fait par les Animaux du Futur Marco, Justine, Martin et bien d'autres</p>
+      </div>
+  	</div>
+
     <h2 class="titre1">LA CHIMERE</h2>
     <h2 class="titre2">LA CHIMERE</h2>
 
@@ -119,13 +127,7 @@ function SetSelect($id,$type,$defaultName = null)
 
 
 <div class="footer-1 transf" style="display:none"><div class="fooChimere">
-	<div class="aide">
-		<h2>???</h2>
-		<p class="instructions">\o/ Bienvenue sur la Chimère \o/<br>
-			1 - Selectionne-les éléments que tu veux afficher depuis les dropdowns, <br>
-			2 - Et déplace-les LENTEMENT sur l'écran <br>
-			3 - ENJOY !!!</p>
-	</div>
+
   <div class="footer-button">
     <a href="chimere.html"><h2>BACK</h2></a>
   </div>
