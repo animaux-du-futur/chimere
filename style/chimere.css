@@ -224,16 +224,16 @@ button.mosa::before {
 
 /* Vibration des images */
 @keyframes wiggle {
-    0% { transform: rotate(0deg); }
-   80% { transform: rotate(0deg); }
-   85% { transform: rotate(5deg); }
-   95% { transform: rotate(-5deg); }
-  100% { transform: rotate(0deg); }
+    0% { transform: rotate(1deg); }
+   80% { transform: rotate(-1deg); }
+   85% { transform: rotate(0deg); }
+   95% { transform: rotate(1deg); }
+  100% { transform: rotate(-1deg); }
 }
 
-.wiggle {
+.wiggle, .draggable {
   display: inline-block;
-  animation: wiggle 2.5s infinite;
+  animation: wiggle 0.3s infinite;
 }
 
 .wiggle:hover {

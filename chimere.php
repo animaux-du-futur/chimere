@@ -68,7 +68,6 @@ function SetSelect($id,$type,$defaultName = null)
     </div>
 
     <div class="canvas draggable" style="height:20vh; left:59vw; top:4vh" id="dragOeuil">
-
       <div class="control" style="position:relative;">
         <button class="change"><!-- AFFICHER la mosaique de selection onclick -->
           <img src="images/pictos/chimere_picto_mosaique.svg" class="change">
@@ -91,9 +90,7 @@ function SetSelect($id,$type,$defaultName = null)
           </button>
         </div>
       </div>
-
       <img src="images/organe/oeuil/oeil5.gif" class="chim" id="oeuil">
-
     </div>
 
     <div class="canvas draggable" style="height:20vh; left:26vw; top:10vh" id="dragOeuil2">
