@@ -1,21 +1,16 @@
-<svg id="Layer_3" data-name="Layer 3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 94.31 94.31">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: none;
-        stroke: #000;
-        stroke-linecap: round;
-        stroke-miterlimit: 10;
-        stroke-width: 9px;
-      }
-    </style>
-  </defs>
-  <title>pictos-chim</title>
-  <g>
-    <path d="M72.44,76.22L47.09,50.87a5,5,0,0,1,0-7.07L72.44,18.45A5,5,0,0,1,81,22V72.68A5,5,0,0,1,72.44,76.22Z"/>
-    <g>
-      <path class="cls-1" d="M13.34,61.28l27.9-27.9"/>
-      <path class="cls-1" d="M41.23,61.28l-27.9-27.9"/>
-    </g>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 94.3 94.3" style="enable-background:new 0 0 94.3 94.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:11;stroke-linecap:round;stroke-miterlimit:10;}
+</style>
+<title>pictos-chim</title>
+<g>
+	<path d="M20.1,42.4L7.7,30c-1-1-1-2.5,0-3.5l12.4-12.4c1.5-1.5,4.2-0.4,4.2,1.7v24.8C24.3,42.8,21.6,43.9,20.1,42.4z"/>
+	<g>
+		<path class="st0" d="M35.5,70.9l35.8-35.8"/>
+		<path class="st0" d="M71.3,70.9L35.5,35.1"/>
+	</g>
+</g>
 </svg>

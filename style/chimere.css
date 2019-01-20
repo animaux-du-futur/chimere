@@ -83,6 +83,9 @@ img#tex {
 }
 .tableau {
 }
+.content {
+  overflow: inherit;
+}
 .transf .content {
   padding-bottom: 0px;
 }
@@ -222,22 +225,6 @@ button.mosa::before {
 }
 /* FIN */
 
-/* Vibration des images */
-@keyframes wiggle {
-    0% { transform: rotate(1deg); }
-   80% { transform: rotate(-1deg); }
-   85% { transform: rotate(0deg); }
-   95% { transform: rotate(1deg); }
-  100% { transform: rotate(-1deg); }
-}
-.wiggle, .draggable {
-  display: inline-block;
-  animation: wiggle 0.3s infinite;
-}
-.wiggle:hover {
-  animation: none;
-}
-/* FIN vibrations */
 .aide {
   position: absolute;
   z-index: 30;

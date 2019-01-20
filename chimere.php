@@ -27,6 +27,7 @@ function SetSelect($id,$type,$defaultName = null)
 <head>
   <link rel="stylesheet" href="style/main.css">
   <link rel="stylesheet" href="style/chimere.css">
+  <link rel="stylesheet" href="style/wiggle.css">
   <meta charset="utf-8"/>
 </head>
 
@@ -108,7 +109,7 @@ function SetSelect($id,$type,$defaultName = null)
       <img src="images/organe/oeuil/oeil5.gif" class="chim" id="oeuil3">
     </div>
 
-    <div class="canvas draggable wiggle" style="height:16vh; left:39vw; top:40vh" id="dragNez">
+    <div class="canvas draggable" style="height:16vh; left:39vw; top:40vh" id="dragNez">
       <img src="images/organe/nez/naseaux.gif" class="chim" id="nez">
     </div>
 
