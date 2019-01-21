@@ -1,17 +1,17 @@
 /* Vibration des images */
 @keyframes wiggle {
 0% { transform: rotate(0deg); margin: 0px 0px 0px 0px;}
-15% { transform: rotate(1deg); margin: 1px -2px 0px 0px;}
-25% { transform: rotate(0deg); margin: -2px 1px 0px 0px;}
+15% { transform: rotate(1deg); margin: 1px -1px 0px 0px;}
+25% { transform: rotate(0deg); margin: -1px 1px 0px 0px;}
 25% { transform: rotate(-1deg); margin: 0px -1px 0px 0px;}
-45% { transform: rotate(1deg); margin: 2px 2px 0px 0px;}
+45% { transform: rotate(1deg); margin: 1px 1px 0px 0px;}
 55% { transform: rotate(0deg); margin: -1px 0px 0px 0px;}
-65% { transform: rotate(-1deg); margin: 2px 2px 0px 0px;}
+65% { transform: rotate(-1deg); margin: 1px 1px 0px 0px;}
 75% { transform: rotate(1deg); margin: 0px -1px 0px 0px;}
-80% { transform: rotate(-1deg); margin: -2px 2px 0px 0px;}
+80% { transform: rotate(-1deg); margin: -2px 1px 0px 0px;}
 85% { transform: rotate(0deg); margin: 0px -1px 0px 0px;}
-95% { transform: rotate(1deg); margin: 2px 1px 0px 0px;}
-100% { transform: rotate(-1deg); margin: -1px -2px 0px 0px;}
+95% { transform: rotate(1deg); margin: 1px 1px 0px 0px;}
+100% { transform: rotate(-1deg); margin: -1px -1px 0px 0px;}
 }
 
 @keyframes wiggle3 {
