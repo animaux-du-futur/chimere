@@ -25,13 +25,29 @@ function SetSelect($id,$type,$defaultName = null)
 
 <html>
 <head>
-  <link rel="stylesheet" href="style/main.css">
-  <link rel="stylesheet" href="style/chimere.css">
-  <link rel="stylesheet" href="style/wiggle.css">
+  <link rel="stylesheet" href="style/main.css"/>
+  <link rel="stylesheet" href="style/chimere.css"/>
+  <link rel="stylesheet" href="style/wiggle.css"/>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="scrollbar/jquery.mCustomScrollbar.css"/>
   <meta charset="utf-8"/>
+
 </head>
 
 <body>
+  <script>
+    (function($){
+        $(window).on("load",function(){
+
+            $(".scroll").mCustomScrollbar({
+              theme:"dark-3",
+              scrollbarPosition: "outside",
+              scrollButtons:{enable:false}
+            });
+
+        });
+    })(jQuery);
+  </script>
 <div class="tableau transf">
 
   <div class="content fixed">
@@ -164,5 +180,7 @@ function SetSelect($id,$type,$defaultName = null)
 </div>
 <script src="js/dragging.js"></script>
 <script src="js/select.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
 </body>
 </html>
