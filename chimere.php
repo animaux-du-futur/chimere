@@ -93,14 +93,20 @@ function SetSelect($id,$type,$defaultName = null)
     </div>
 
     <div class="canvas draggable" style="height:20vh; left:59vw; top:4vh" id="dragOeuil">
+      <img src="images/organe/oeuil/oeil5.gif" class="chim" id="oeuil">
+    </div>
+    <div class="canvas draggable" style="height:20vh; left:26vw; top:10vh" id="dragOeuil2">
+      <img src="images/organe/oeuil/oeil5.gif" class="chim mirror" id="oeuil2">
+    </div>
+		<div class="canvas draggable" style="height:20vh; left:62vw; top:10vh" id="dragOeuil3">
       <div class="control" style="position:relative;">
-        <button class="change"><!-- AFFICHER la mosaique de selection onclick -->
-          <img src="images/pictos/chimere_picto_mosaique.svg" class="change">
-        </button>
         <button class="change"><!-- CACHER le gif - le bouton de ré-activation apparait à gauche de l'écran -->
           <img src="images/pictos/chimere_picto_hide.svg" class="change">
         </button>
-        <div class="mosaique">
+        <button class="change"><!-- AFFICHER la mosaique de selection onclick -->
+          <img src="images/pictos/chimere_picto_mosaique.svg" class="change">
+        </button>
+        <div class="mosaique mCustomScrollbar" id="">
           <button class="mosa">
             <img class="mosa" src="images/zoom-01.png">
           </button>
@@ -115,13 +121,6 @@ function SetSelect($id,$type,$defaultName = null)
           </button>
         </div>
       </div>
-      <img src="images/organe/oeuil/oeil5.gif" class="chim" id="oeuil">
-    </div>
-
-    <div class="canvas draggable" style="height:20vh; left:26vw; top:10vh" id="dragOeuil2">
-      <img src="images/organe/oeuil/oeil5.gif" class="chim mirror" id="oeuil2">
-    </div>
-		<div class="canvas draggable" style="height:20vh; left:62vw; top:10vh" id="dragOeuil3">
       <img src="images/organe/oeuil/oeil5.gif" class="chim" id="oeuil3">
     </div>
 
