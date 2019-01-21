@@ -187,13 +187,13 @@ button.change:hover, button.change:active {
 }
 /* > MOSAIQUE de selection */
 .mosaique {
-  display: none;/* onclick sur button.change deviens flex */
+  /*display: none;/* onclick sur button.change deviens flex */
   flex-direction: column;
   width: 90px;
   max-height: 200px;
   overflow-x: hidden;
   overflow-y: auto;
-  top: 35px; /* alternative : bottom:0px; */
+  top: 90px; /* alternative : bottom:0px; */
   left: 35px;
   position: absolute;
   background-color: white;
