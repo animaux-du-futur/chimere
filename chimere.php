@@ -12,6 +12,7 @@ function SetSelect($id,$type,$defaultName = null)
                 echo '<option value="none"><p>Vide</p></option>';
                 echo "\n";
                 $lArray = array_diff(scandir($lFilePath), array('..', '.'));
+                echo '<script type="text/javascript"> var '.$type.'Arr ='.json_encode($lArray).'; </script>'; 
                 $count = 0;
                 foreach ($lArray as $value) {
                     $count++;
@@ -50,7 +51,7 @@ function SetSelect($id,$type,$defaultName = null)
   </script>
 <div class="tableau transf">
 
-  <div class="content fixed">
+  <div class="content fixed" id="chimContainer">
 
     <div class="aide">
   		<div class="instructions">
@@ -67,7 +68,7 @@ function SetSelect($id,$type,$defaultName = null)
       <button class="parametres"><!-- INFO en popup -->
       <img src="images/pictos/chimere_picto_info.svg" class="change">
       </button>
-      <button class="parametres"><!-- CHARGER de nouveau GIFS -->
+      <button class="parametres" onclick="creatRandomElement();"><!-- CHARGER de nouveau GIFS -->
         <img src="images/pictos/chimere_picto_shuffle.svg" class="change">
       </button>
 
@@ -177,6 +178,7 @@ function SetSelect($id,$type,$defaultName = null)
 </div>
 
 </div>
+<script src="js/element.js"></script>
 <script src="js/dragging.js"></script>
 <script src="js/select.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
