@@ -75,16 +75,16 @@ function SetSelect($id,$type,$defaultName = null)
       <button class="parametres"><!-- CHANGER la texture de fond -->
         <img src="images/pictos/chimere_picto_texture.svg" class="change">
       </button>
-      <button class="parametres"><!-- AFFICHER à nouveau un GIF desactivé -->
+      <button class="parametres" onclick="creatRandomElement('bou');"><!-- AFFICHER à nouveau un GIF desactivé -->
         <img src="images/pictos/chimere_picto_bouche.svg" class="change">
       </button>
-      <button class="parametres"><!-- AFFICHER à nouveau un GIF desactivé -->
+      <button class="parametres" onclick="creatRandomElement('oeuil');"><!-- AFFICHER à nouveau un GIF desactivé -->
         <img src="images/pictos/chimere_picto_oeuil.svg" class="change">
       </button>
-      <button class="parametres"><!-- AFFICHER à nouveau un GIF desactivé -->
+      <button class="parametres" onclick="creatRandomElement('prot');"><!-- AFFICHER à nouveau un GIF desactivé -->
         <img src="images/pictos/chimere_picto_tenta.svg" class="change">
       </button>
-      <button class="parametres"><!-- AFFICHER à nouveau un GIF desactivé -->
+      <button class="parametres" onclick="creatRandomElement('nez');"><!-- AFFICHER à nouveau un GIF desactivé -->
         <img src="images/pictos/chimere_picto_nez.svg" class="change">
       </button>
     </div>
