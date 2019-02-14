@@ -48,3 +48,4 @@ function mToVh(m) {
 }
 
 initDraggingAllElem();
+shuffleElement();

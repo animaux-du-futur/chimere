@@ -45,7 +45,6 @@ function SetSelect($id,$type,$defaultName = null)
               scrollbarPosition: "outside",
               scrollButtons:{enable:false}
             });
-
         });
     })(jQuery);
   </script>
