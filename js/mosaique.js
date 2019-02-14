@@ -4,14 +4,19 @@ function creatSelectMenu() {
 	var type = this.getAttribute("data-type");
 	var theCaller = this;
 
+	var control = document.createElement("div");
+	control.className = "control";
+	control.setAttribute("style" , "position:absolute; top:0px;");
+	this.appendChild(control);
+	this.control = control;
+
 	var removeB = document.createElement("button");
 	removeB.className = "change";
 	var newImgremove =  document.createElement("img");
 	newImgremove.className = "change";
 	newImgremove.setAttribute("src" , "images/pictos/chimere_picto_hide.svg");
 	removeB.appendChild(newImgremove);
-	this.appendChild(removeB);
-	this.removeButton = removeB;
+	control.appendChild(removeB);
 
 	var newMosB = document.createElement("button");
 	newMosB.className = "change";
@@ -20,8 +25,7 @@ function creatSelectMenu() {
 	newImg.className = "change";
 	newImg.setAttribute("src" , "images/pictos/chimere_picto_mosaique.svg");
 	newMosB.appendChild(newImg);
-	this.appendChild(newMosB);
-	this.mosaiqueButton = newMosB;
+	control.appendChild(newMosB);
 
 
 	removeB.addEventListener("mousedown", function (e) {
@@ -34,11 +38,8 @@ function creatSelectMenu() {
 }
 
 function removeSelectMenu() {
-	if (this.removeButton) {
-		this.removeChild(this.removeButton);
-	}
-	if (this.mosaiqueButton) {
-		this.removeChild(this.mosaiqueButton);
+	if (this.control) {
+		this.removeChild(this.control);
 	}
 }
 
