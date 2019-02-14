@@ -92,13 +92,13 @@ function SetSelect($id,$type,$defaultName = null)
       <img id="tex" src="images/organe/tex/chats.gif"><!--/organe/tex/bacteries.gif-->
     </div>
 
-    <div class="canvas draggable" style="height:20vh; left:59vw; top:4vh" id="dragOeuil">
+    <div class="canvas draggable" style="height:20%; left:59%; top:4%" id="dragOeuil">
       <img src="images/organe/oeuil/oeil5.gif" class="chim" id="oeuil">
     </div>
-    <div class="canvas draggable" style="height:20vh; left:26vw; top:10vh" id="dragOeuil2">
+    <div class="canvas draggable" style="height:20%; left:26%; top:10%" id="dragOeuil2">
       <img src="images/organe/oeuil/oeil5.gif" class="chim mirror" id="oeuil2">
     </div>
-		<div class="canvas draggable" style="height:20vh; left:62vw; top:10vh" id="dragOeuil3">
+		<div class="canvas draggable" style="height:20%; left:62%; top:10%" id="dragOeuil3">
       <div class="control" style="position:relative;">
         <button class="change"><!-- CACHER le gif - le bouton de ré-activation apparait à gauche de l'écran -->
           <img src="images/pictos/chimere_picto_hide.svg" class="change">
@@ -106,39 +106,47 @@ function SetSelect($id,$type,$defaultName = null)
         <button class="change"><!-- AFFICHER la mosaique de selection onclick -->
           <img src="images/pictos/chimere_picto_mosaique.svg" class="change">
         </button>
-        <div class="mosaique mCustomScrollbar" id="">
-          <button class="mosa">
-            <img class="mosa" src="images/zoom-01.png">
-          </button>
-          <button class="mosa">
-            <img class="mosa" src="images/zoom-01.png">
-          </button>
-          <button class="mosa">
-            <img class="mosa" src="images/zoom-01.png">
-          </button>
-          <button class="mosa">
-            <img class="mosa" src="images/zoom-01.png">
-          </button>
-        </div>
       </div>
       <img src="images/organe/oeuil/oeil5.gif" class="chim" id="oeuil3">
     </div>
 
-    <div class="canvas draggable" style="height:16vh; left:39vw; top:40vh" id="dragNez">
+    <div class="canvas draggable" style="height:16%; left:39%; top:40%" id="dragNez">
       <img src="images/organe/nez/naseaux.gif" class="chim" id="nez">
     </div>
 
-    <div class="canvas draggable" style="height:20vh; left:39vw; top:50vh" id="dragBou">
+    <div class="canvas draggable" style="height:20%; left:39%; top:50%" id="dragBou">
       <img src="images/organe/bou/bec_plat.gif" class="chim" onwheel="resize(event)" id="bou">
     </div>
 
-    <div class="canvas draggable" style="height:30vh; left:70vw; top:60vh" id="dragProt">
+    <div class="canvas draggable" style="height:30%; left:70%; top:60%" id="dragProt">
       <img src="images/organe/prot/florale.gif" class="chim" id="prot">
     </div>
-    <div class="canvas draggable" style="height:30vh; left:13vw; top:60vh" id="dragProt2">
+    <div class="canvas draggable" style="height:30%; left:13%; top:60%" id="dragProt2">
       <img src="images/organe/prot/florale.gif" class="chim mirror" id="prot2">
     </div>
   </div>
+
+  <div class="mosaique" id="">
+    <button class="mosa">
+      <img class="mosa" src="images/organe/oeuil/oeil5.gif">
+    </button>
+    <button class="mosa">
+      <img class="mosa" src="images/organe/oeuil/clin_oeil.gif">
+    </button>
+    <button class="mosa">
+      <img class="mosa" src="images/organe/oeuil/dogturn.gif">
+    </button>
+    <button class="mosa">
+      <img class="mosa" src="images/organe/oeuil/head.gif">
+    </button>
+    <button class="mosa">
+      <img class="mosa" src="images/organe/oeuil/multi-oeils.gif">
+    </button>
+    <button class="mosa">
+      <img class="mosa" src="images/organe/oeuil/oeil_alien.gif">
+    </button>
+  </div>
+
 </div>
 
 
