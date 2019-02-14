@@ -12,14 +12,17 @@ function initDragging(pItem) {
 	pItem.addEventListener("mousedown", onMouseDown);
 	pItem.addEventListener("mousemove", onMouseMove);
 	pItem.addEventListener("mouseup", onMouseUp);
-	pItem.addEventListener("mouseleave", onMouseUp);
+	pItem.addEventListener("mouseleave", removeSelectMenu);
+	pItem.addEventListener("mouseenter", creatSelectMenu);
 }
 
 function onMouseDown(e) {
 this.prevX = mToVw(e);
 this.prevY = mToVh(e);
 this.isMouseDown = true;
-this.parentNode.appendChild(this);
+if (this.parentNode) {
+	this.parentNode.appendChild(this);
+}
 }
 
 function onMouseMove(e) {

@@ -179,6 +179,7 @@ function SetSelect($id,$type,$defaultName = null)
 
 </div>
 <script src="js/element.js"></script>
+<script src="js/mosaique.js"></script>
 <script src="js/dragging.js"></script>
 <script src="js/select.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>

@@ -34,6 +34,7 @@ function creatRandomElement(type , isMirror, x, y) {
 	var newImg =  document.createElement("img");
 	newElem.className = "canvas draggable";
 	newElem.id = "id"+conteurelement;
+	newElem.setAttribute("data-type" , lType);
 	conteurelement++;
 	newElem.appendChild(newImg);
 
