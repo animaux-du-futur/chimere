@@ -68,11 +68,11 @@ function SetSelect($id,$type,$defaultName = null)
       <button class="parametres"><!-- INFO en popup -->
       <img src="images/pictos/chimere_picto_info.svg" class="change">
       </button>
-      <button class="parametres" onclick="creatRandomElement();"><!-- CHARGER de nouveau GIFS -->
+      <button class="parametres" onclick="shuffleElement();"><!-- CHARGER de nouveau GIFS -->
         <img src="images/pictos/chimere_picto_shuffle.svg" class="change">
       </button>
 
-      <button class="parametres"><!-- CHANGER la texture de fond -->
+      <button class="parametres"onclick="shuffleTex();"><!-- CHANGER la texture de fond -->
         <img src="images/pictos/chimere_picto_texture.svg" class="change">
       </button>
       <button class="parametres" onclick="creatRandomElement('bou');"><!-- AFFICHER à nouveau un GIF desactivé -->
