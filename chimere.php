@@ -126,7 +126,7 @@ function SetSelect($id,$type,$defaultName = null)
     </div>
   </div>
 
-  <div class="mosaique" id="">
+  <div class="mosaique mCustomScrollbar" id="">
     <button class="mosa">
       <img class="mosa" src="images/organe/oeuil/oeil5.gif">
     </button>
@@ -138,6 +138,18 @@ function SetSelect($id,$type,$defaultName = null)
     </button>
     <button class="mosa">
       <img class="mosa" src="images/organe/oeuil/head.gif">
+    </button>
+    <button class="mosa">
+      <img class="mosa" src="images/organe/oeuil/multi-oeils.gif">
+    </button>
+    <button class="mosa">
+      <img class="mosa" src="images/organe/oeuil/oeil_alien.gif">
+    </button>
+    <button class="mosa">
+      <img class="mosa" src="images/organe/oeuil/multi-oeils.gif">
+    </button>
+    <button class="mosa">
+      <img class="mosa" src="images/organe/oeuil/oeil_alien.gif">
     </button>
     <button class="mosa">
       <img class="mosa" src="images/organe/oeuil/multi-oeils.gif">

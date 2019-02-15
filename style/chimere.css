@@ -187,18 +187,17 @@ button.change:hover, button.change:active {
 }
 /* > MOSAIQUE de selection */
 .mosaique {
-  /*display: none;/* onclick sur button.change deviens flex */
-  width: 100%;
-  height: 75px;
-  overflow-y: hidden;
+  /*display: none; onclick sur button.change deviens flex */
+  width: 300px;
+  max-height: 284px;
+  overflow-x: hidden;
   bottom: 0px;
   position: absolute;
-  background-color: white;
-  box-shadow: 0px 0px 4px grey;
   margin: auto;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
   z-index: 20;
 }
 button.mosa {
@@ -207,10 +206,12 @@ button.mosa {
   justify-content: center;
   align-items: center;
   overflow-y: hidden;
-  height: 80%;
+  height: 90px;
   width: 90px;
-  border: 0px;
-  box-shadow: none;
+  margin: 2px;
+  background-color: white;
+  box-shadow: 0px 0px 4px grey;
+  border-radius: 10px;
 }
 img.mosa {
   width: 100%;
@@ -218,7 +219,16 @@ img.mosa {
   margin: 0px;
   padding: 0px;
 }
-button.mosa::before {
+.mCustomScrollBox, .mCSB_container {
+  width: inherit;
+  height: inherit;
+  flex-wrap: wrap;
+  display: flex;
+}
+.mCSB_container {
+  margin-right: 10px !important;
+}
+/*button.mosa::before {
   display: block;
   position: absolute;
   content: '';
@@ -229,7 +239,7 @@ button.mosa::before {
 }
 button.mosa:last-child::before {
   border-right: none;
-}
+}*/
 /* FIN */
 
 .aide {
