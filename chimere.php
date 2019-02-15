@@ -99,7 +99,7 @@ function SetSelect($id,$type,$defaultName = null)
       <img src="images/organe/oeuil/oeil5.gif" class="chim mirror" id="oeuil2">
     </div>
 		<div class="canvas draggable" style="height:20vh; left:62vw; top:10vh" id="dragOeuil3">
-      <div class="control" style="position:relative;">
+      <div class="control" style="position:relative;"><!-- Ajouter ici ".control-left" ou ".control-right" qui définie le positionement droite/gauche des boutons -->
         <button class="change"><!-- CACHER le gif - le bouton de ré-activation apparait à gauche de l'écran -->
           <img src="images/pictos/chimere_picto_hide.svg" class="change">
         </button>
