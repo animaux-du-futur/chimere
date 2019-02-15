@@ -191,7 +191,7 @@ button.change:hover, button.change:active {
   width: 300px;
   max-height: 284px;
   overflow-x: hidden;
-  bottom: 0px;
+  top: 90px;
   position: absolute;
   margin: auto;
   display: flex;
@@ -199,6 +199,12 @@ button.change:hover, button.change:active {
   justify-content: flex-start;
   align-items: flex-start;
   z-index: 20;
+}
+.mosa-left {
+  left: 0px;
+}
+.mosa-right {
+  right: 0px;
 }
 button.mosa {
   position: relative;

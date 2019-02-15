@@ -106,6 +106,38 @@ function SetSelect($id,$type,$defaultName = null)
         <button class="change"><!-- AFFICHER la mosaique de selection onclick -->
           <img src="images/pictos/chimere_picto_mosaique.svg" class="change">
         </button>
+        <div class="mosaique mCustomScrollbar" id="">
+          <button class="mosa">
+            <img class="mosa" src="images/organe/oeuil/oeil5.gif">
+          </button>
+          <button class="mosa">
+            <img class="mosa" src="images/organe/oeuil/clin_oeil.gif">
+          </button>
+          <button class="mosa">
+            <img class="mosa" src="images/organe/oeuil/dogturn.gif">
+          </button>
+          <button class="mosa">
+            <img class="mosa" src="images/organe/oeuil/head.gif">
+          </button>
+          <button class="mosa">
+            <img class="mosa" src="images/organe/oeuil/multi-oeils.gif">
+          </button>
+          <button class="mosa">
+            <img class="mosa" src="images/organe/oeuil/oeil_alien.gif">
+          </button>
+          <button class="mosa">
+            <img class="mosa" src="images/organe/oeuil/multi-oeils.gif">
+          </button>
+          <button class="mosa">
+            <img class="mosa" src="images/organe/oeuil/oeil_alien.gif">
+          </button>
+          <button class="mosa">
+            <img class="mosa" src="images/organe/oeuil/multi-oeils.gif">
+          </button>
+          <button class="mosa">
+            <img class="mosa" src="images/organe/oeuil/oeil_alien.gif">
+          </button>
+        </div>
       </div>
       <img src="images/organe/oeuil/oeil5.gif" class="chim" id="oeuil3">
     </div>
@@ -126,38 +158,7 @@ function SetSelect($id,$type,$defaultName = null)
     </div>
   </div>
 
-  <div class="mosaique mCustomScrollbar" id="">
-    <button class="mosa">
-      <img class="mosa" src="images/organe/oeuil/oeil5.gif">
-    </button>
-    <button class="mosa">
-      <img class="mosa" src="images/organe/oeuil/clin_oeil.gif">
-    </button>
-    <button class="mosa">
-      <img class="mosa" src="images/organe/oeuil/dogturn.gif">
-    </button>
-    <button class="mosa">
-      <img class="mosa" src="images/organe/oeuil/head.gif">
-    </button>
-    <button class="mosa">
-      <img class="mosa" src="images/organe/oeuil/multi-oeils.gif">
-    </button>
-    <button class="mosa">
-      <img class="mosa" src="images/organe/oeuil/oeil_alien.gif">
-    </button>
-    <button class="mosa">
-      <img class="mosa" src="images/organe/oeuil/multi-oeils.gif">
-    </button>
-    <button class="mosa">
-      <img class="mosa" src="images/organe/oeuil/oeil_alien.gif">
-    </button>
-    <button class="mosa">
-      <img class="mosa" src="images/organe/oeuil/multi-oeils.gif">
-    </button>
-    <button class="mosa">
-      <img class="mosa" src="images/organe/oeuil/oeil_alien.gif">
-    </button>
-  </div>
+
 
 </div>
 
