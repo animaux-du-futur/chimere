@@ -106,20 +106,6 @@ function SetSelect($id,$type,$defaultName = null)
         <button class="change"><!-- AFFICHER la mosaique de selection onclick -->
           <img src="images/pictos/chimere_picto_mosaique.svg" class="change">
         </button>
-        <div class="mosaique mCustomScrollbar" id="">
-          <button class="mosa">
-            <img class="mosa" src="images/zoom-01.png">
-          </button>
-          <button class="mosa">
-            <img class="mosa" src="images/zoom-01.png">
-          </button>
-          <button class="mosa">
-            <img class="mosa" src="images/zoom-01.png">
-          </button>
-          <button class="mosa">
-            <img class="mosa" src="images/zoom-01.png">
-          </button>
-        </div>
       </div>
       <img src="images/organe/oeuil/oeil5.gif" class="chim" id="oeuil3">
     </div>
