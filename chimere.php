@@ -12,7 +12,7 @@ function SetSelect($id,$type,$defaultName = null)
                 echo '<option value="none"><p>Vide</p></option>';
                 echo "\n";
                 $lArray = array_diff(scandir($lFilePath), array('..', '.'));
-                echo '<script type="text/javascript"> var '.$type.'Arr ='.json_encode($lArray).'; </script>'; 
+                echo '<script type="text/javascript"> var '.$type.'Arr ='.json_encode($lArray).'; </script>';
                 $count = 0;
                 foreach ($lArray as $value) {
                     $count++;
