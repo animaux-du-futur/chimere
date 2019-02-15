@@ -6,7 +6,7 @@ function creatSelectMenu() {
 
 	var control = document.createElement("div");
 	control.className = "control";
-	control.setAttribute("style" , "position:absolute; top:0px;");
+	control.setAttribute("style" , "position:absolute; top:-20px;");
 	this.appendChild(control);
 	this.control = control;
 
