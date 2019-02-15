@@ -146,27 +146,40 @@ button.parametres:hover, button.parametres:active {
   visibility: visible;
 }
 .draggable:hover {
-  background-image: radial-gradient(
+  /*background-image: radial-gradient(
       circle,
       rgba(255, 216, 0, 1),
       rgba(255, 216, 0, 0),
       rgba(255, 216, 0, 0)
-    );
+    );*/
+  background-color: white;
+  border: 2px solid black;
+  box-shadow: 0px 0px 4px black;
+  border-radius: 10px;
+  padding: 7px;
 }
 .draggable:hover img.chim {
-  opacity: 0.7;
+  /*opacity: 0.7;*/
 }
 
 /* Module de changement de GIF */
-.control {
+.control /*.left*/ {
   /*display: none;*/
   z-index: 5;
   height: 0px;
   width: 0px;
+  top: -20px !important;
+  left: -20px;
 }
+/*.control .right {
+  top: -20px !important;
+  right: -20px;
+}*/
+
 .draggable:hover .control {
   display: block;
 }
+
 button.change {
   width: 40px;
   height: 40px;
