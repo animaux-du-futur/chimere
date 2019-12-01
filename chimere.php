@@ -91,19 +91,21 @@ function SetSelect($id,$type,$defaultName = null)
     <div class="canvas" id="texture" style="width:100%; height:100%; overflow:hidden;">
       <img id="tex" src="images/organe/tex/chats.gif"><!--/organe/tex/bacteries.gif-->
     </div>
-
-    <div class="canvas draggable" style="height:20vh; left:59vw; top:4vh" id="dragOeuil">
+    <div class="canvas" id="" style="width:100%; height:100%; overflow:hidden;">
+      <img id="" src="images/organe/fond/blob.png"><!--/organe/tex/bacteries.gif-->
+    </div>
+    <!--div class="canvas draggable" style="height:20vh; left:59vw; top:4vh" id="dragOeuil">
       <img src="images/organe/oeuil/oeil5.gif" class="chim" id="oeuil">
     </div>
     <div class="canvas draggable" style="height:20vh; left:26vw; top:10vh" id="dragOeuil2">
       <img src="images/organe/oeuil/oeil5.gif" class="chim mirror" id="oeuil2">
     </div>
 		<div class="canvas draggable" style="height:20vh; left:62vw; top:10vh" id="dragOeuil3">
-      <div class="control" style="position:relative;"><!-- Ajouter ici ".control-left" ou ".control-right" qui définie le positionement droite/gauche des boutons -->
-        <button class="change"><!-- CACHER le gif - le bouton de ré-activation apparait à gauche de l'écran -->
+      <div class="control" style="position:relative;">
+        <button class="change">
           <img src="images/pictos/chimere_picto_hide.svg" class="change">
         </button>
-        <button class="change"><!-- AFFICHER la mosaique de selection onclick -->
+        <button class="change">
           <img src="images/pictos/chimere_picto_mosaique.svg" class="change">
         </button>
       </div>
@@ -123,7 +125,7 @@ function SetSelect($id,$type,$defaultName = null)
     </div>
     <div class="canvas draggable" style="height:30vh; left:13vw; top:60vh" id="dragProt2">
       <img src="images/organe/prot/florale.gif" class="chim mirror" id="prot2">
-    </div>
+    </div-->
   </div>
 </div>
 

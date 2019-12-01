@@ -161,7 +161,7 @@ button.parametres:hover, button.parametres:active {
 
 /* Module de changement de GIF */
 .control {
-  /*display: none;*/
+  display: none;
   z-index: 5;
   height: 0px;
   width: 0px;
@@ -199,7 +199,7 @@ button.change:hover, button.change:active {
 }
 /* > MOSAIQUE de selection */
 .mosaique {
-  /*display: none; onclick sur button.change deviens flex */
+  display: none; 
   width: 300px;
   max-height: 284px;
   overflow-x: hidden;
